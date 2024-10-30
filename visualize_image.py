@@ -25,7 +25,7 @@ for im_scaled in pyramid_gaussian(image, downscale = downscale):
     for (x, y, window) in sd.sliding_window(im_scaled, size, step_size):
         if window.shape[0] != size[1] or window.shape[1] != size[0]:
             continue
-        window = color.rgb2gray(im_window)
+        window = color.rgb2gray(window)
             
         fd=hog(window, orientations=9,pixels_per_cell=(8,8),visualize=False,cells_per_block=(3,3))
         fd = fd.reshape(1, -1)
