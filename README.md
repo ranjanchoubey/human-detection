@@ -1,4 +1,4 @@
-# Person Detection using HOG Feature and SVM Classifier
+# human Detection using HOG Feature and SVM Classifier
 
 
 
@@ -7,18 +7,18 @@
 
 ```python3 visualize_image.py``` 
 
-![Conv](test/Person.png)
+![Conv](test/human.png)
 
 ## Usage
-```git clone https://github.com/RashadGarayev/PersonDetection``` 
+```git clone https://github.com/RashadGarayev/humanDetection``` 
 
-```cd PersonDetection``` 
+```cd humanDetection``` 
 
 ### For training
   
 ```python3 training_SVM.py```  
 
-* for real-time person detection :
+* for real-time human detection :
 
 ```python3 visualize_real_time.py```  
 

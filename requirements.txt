@@ -2,3 +2,6 @@ scikit-image
 scikit-learn
 joblib
 opencv-python
+pafy
+youtube-dl
+matplotlib
