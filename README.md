@@ -5,12 +5,28 @@
 ## Overview
 This project implements a human detection system using Histogram of Oriented Gradients (HOG) for feature extraction and Support Vector Machine (SVM) for classification. The system can detect human figures in images through a sliding window approach combined with image pyramids.
 
+## Example Output
+### Human Detection Results
+The system successfully detects human figures in images by:
+- Drawing bounding boxes around detected humans (green rectangles)
+- Labeling each detection with confidence scores
+- Handling different poses and scales effectively
+
+Additional detection examples:
+| Original Image | Detection Result |
+|----------------|------------------|
+| ![Input 1](assets/sliding_windows.gif) |  ![Output 1](assets/test.png) |
+
+
 ## Project Highlights
 - Feature extraction using HOG descriptors
 - Classification using Linear SVM
 - Sliding window detection with image pyramids
 - Non-maximum suppression for overlapping detections
 - Real-time human detection capabilities
+
+
+
 
 ## Prerequisites
 - Python 3.x
@@ -79,17 +95,6 @@ human-detection/
 2. Run all cells sequentially
 3. The final cell will process a test image and display results
 
-## Example Output
-### Human Detection Results
-The system successfully detects human figures in images by:
-- Drawing bounding boxes around detected humans (green rectangles)
-- Labeling each detection with confidence scores
-- Handling different poses and scales effectively
-
-Additional detection examples:
-| Original Image | Detection Result |
-|----------------|------------------|
-| ![Input 1](assets/sliding_windows.gif) |  ![Output 1](assets/test.png) |
 
 ## Resources
 ### Project Presentation
