@@ -89,7 +89,7 @@ The system successfully detects human figures in images by:
 Additional detection examples:
 | Original Image | Detection Result |
 |----------------|------------------|
-| ![Input 1](assets/sliding_windows.gif) | ![Output 1](assets/test.png) |
+| ![Input 1](assets/test.jpg) | ![Output 1](assets/test.png) |
 
 ## Resources
 ### Project Presentation
